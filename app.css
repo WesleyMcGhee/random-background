@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(161, 90, 114);
+}
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+#button-container {
+  display: flex;
+  justify-content: center;
+}
+#generate-background {
+  text-align: center;
+  margin-top: 5vh;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 3px solid black;
+  background-color: rgb(150, 143, 212);
+}
