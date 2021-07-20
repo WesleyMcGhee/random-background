@@ -1,5 +1,5 @@
 const generateBackground = document.querySelector('#generate-background');
-        const copyBackground = document.querySelector('#copy-button');      
+const copyBackground = document.querySelector('#copy-button');      
 const pictureDiv = document.querySelector('#picture');
 const picName = document.querySelector('h1');
 let imgUrl = '';
