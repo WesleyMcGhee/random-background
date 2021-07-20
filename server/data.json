@@ -13,5 +13,15 @@
         "id": 3,
         "name": "The Price is Right",
         "url": "https://virtualbg-brandstudio.netdna-ssl.com/wp-content/uploads/2020/06/price-is-right.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Knives Out",
+        "url": "https://pbs.twimg.com/media/EUq01JuU4AAqJnv.jpg:large"
+    },
+    {
+        "id": 5,
+        "name": "Bob's Burgers",
+        "url": "https://assets.foxdcg.com/dpp-uploaded/images/articles/5e9faad3ab88be0019e77ed3/ANIDOM_BobsBurgers_4096x2160_03.jpg"
     }
 ]
