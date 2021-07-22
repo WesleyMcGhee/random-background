@@ -38,5 +38,25 @@
         "id": 8,
         "name": "Spongebob Squarepants",
         "url": "https://i.pinimg.com/originals/0e/c0/65/0ec0653f9cb1323e15d8ecd4a96807b6.jpg"
+    }, 
+    {
+        "id": 9,
+        "name": "Batman",
+        "url": "https://wallpaper.dog/large/20364091.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Tony Stark's house",
+        "url": "https://www.fancypantshomes.com/wp-content/uploads/2018/10/inside-tony-stark-house-in-malibu-1024x410.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Iron Man",
+        "url": "https://i.pinimg.com/originals/0e/be/ed/0ebeed78e4b41561fa6733d893a4288a.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Cyberpunk",
+        "url": "https://wallpaperaccess.com/full/2099805.jpg"
     }
 ]
