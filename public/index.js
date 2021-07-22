@@ -19,6 +19,8 @@ const displayPicture = () => {
         imgUrl = res.data[index].url;  
         picName.textContent = res.data[index].name;
         pictureDiv.appendChild(newImg).src = res.data[index].url;
+        let copyBtn = document.getElementById('copy-button')
+        copyBtn.style.visibility = 'visible';
 
     })
 };
