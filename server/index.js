@@ -2,8 +2,13 @@ const crtl = require('./controller/controller');
 const express = require('express');
 const app = express();
 const cors = require('cors');
-const port = 4000;
+const port = process.env.PORT || 4000;
+const path = require('path')
 
+
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname,'../public'));
+})
 app.use(cors());
 app.use(express.json());
 

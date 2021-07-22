@@ -1,0 +1,28 @@
+{
+  "name": "random-background",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm start server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WesleyMcGhee/random-background.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WesleyMcGhee/random-background/issues"
+  },
+  "homepage": "https://github.com/WesleyMcGhee/random-background#readme"
+}
