@@ -10,7 +10,7 @@ const randNum = (num) => {
 
 
 const displayPicture = () => {
-    axios.get('http://localhost:4000/api/background').then((res) => {
+    axios.get('/api/background').then((res) => {
         console.log(res.data);
         if(document.querySelector('img')){
             document.querySelector('img').remove();
