@@ -11,7 +11,6 @@ const randNum = (num) => {
 
 const displayPicture = () => {
     axios.get('/api/background').then((res) => {
-        console.log(res.data);
         if(document.querySelector('img')){
             document.querySelector('img').remove();
         }
@@ -20,8 +19,7 @@ const displayPicture = () => {
         imgUrl = res.data[index].url;  
         picName.textContent = res.data[index].name;
         pictureDiv.appendChild(newImg).src = res.data[index].url;
-        console.log(res.data[index].name)
-        console.log(res.data[index].url)
+
     })
 };
 
