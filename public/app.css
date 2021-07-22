@@ -9,7 +9,7 @@ body {
 }
 h1 {
   padding-top: 25px;
-  padding-bottom: 25px;
+  padding-bottom: 10px;
   text-align: center;
   font-size: 2.5rem;
   font-family: 'Exo 2', sans-serif;
@@ -19,22 +19,27 @@ h1 {
 }
 h2 {
   padding-bottom: 5px;
+  padding-top: 3px;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-family: 'Exo 2', sans-serif;
 }
 #notification {
   visibility: hidden;
+  height: 25px;
 }
-#button-container {
+#generate-button-container {
+  display: flex;
+  justify-content: center;
+}
+#copy-button-container {
   display: flex;
   justify-content: center;
 }
 #generate-background {
   text-align: center;
-  margin-top: 5vh;
-  margin-bottom: 5vh;
-  margin-right: 5px;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   padding: 8px 10px;
   border-radius: 5px;
   border: 1px solid black;
@@ -46,14 +51,14 @@ h2 {
 }
 #copy-button {
   text-align: center;
-  margin-top: 5vh;
-  margin-bottom: 5vh;
-  margin-left: 5px;
+  /* margin-top: 1vh; */
+  /* margin-bottom: 1vh; */
   padding: 8px 10px;
   border-radius: 5px;
   border: 1px solid black;
   background-color: transparent;
   font-family: 'Exo 2', sans-serif;
+  visibility: hidden;
 }
 #copy-button:hover {
   background-color: rgba(255, 255, 255, 0.219)
